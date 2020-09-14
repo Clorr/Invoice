@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Invoice Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- Simple Invoice - START -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-xs-12 col-md-5 pull-left">
+                    <strong>Nom émetteur</strong><br>
+                    Adresse<br>
+                    CP Ville<br>
+                    <br>
+                    Coordonnées<br>
+                    <br>
+                    SIRET - 012 345 678<br/>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                </div>
+                <div class="col-xs-12 col-md-5 pull-right">
+                    <div class="text-center">
+                        <h2>DEVIS / FACTURE</h2>
+                        <strong>Objet - #reference</strong><br>
+                        Date<br>
+                    </div>
+                    <hr>
+                    <div class="text-right">
+                        <strong>Destinataire</strong><br>
+                        Adresse<br>
+                        CP Ville<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin:25% 0;">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="text-center"><strong>Détail des prestations</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td><strong>Item</strong></td>
+                                    <td class="text-right"><strong>Total</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1/</td>
+                                    <td><strong>TITRE</strong><br/>
+                                    <p>Détail</p>
+                                    <td class="text-right">€000</td>
+                                </tr>
+                                <tr>
+                                    <td class="highrow"></td>
+                                    <td class="highrow text-right"><strong>Total</strong></td>
+                                    <td class="highrow text-right">€000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Mentions spéciales
+    </div>
+</div>
+
+<style>
+html, body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.height {
+    min-height: 200px;
+}
+
+.icon {
+    font-size: 47px;
+    color: #5CB85C;
+}
+
+.iconbig {
+    font-size: 77px;
+    color: #5CB85C;
+}
+
+.table > tbody > tr > .emptyrow {
+    border-top: none;
+}
+
+.table > thead > tr > .emptyrow {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .highrow {
+    border-top: 3px solid;
+}
+.footer {
+    position: absolute;
+    bottom: 2em;
+    height: 1em;
+}
+@page {
+    margin: 2cm auto;
+}
+</style>
+
+<!-- Simple Invoice - END -->
+
+</div>
+
+</body>
+</html>
